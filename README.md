@@ -14,4 +14,7 @@
 # 2) Mongo DB -  log de commits
 https://colab.research.google.com/drive/1rWsF0IIMkXCxAtKBNGUQWArCVGNFhiXI?usp=sharing
 
+# 4) Modelos de regresión lineal con streamlit - Iris - 
+https://cristophermartinez-modelosregresionlineal--1-estadistica-0ske91.streamlit.app/
+
 
