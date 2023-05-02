@@ -1,5 +1,6 @@
 # ModelosRegresionLineal-Iris
 
+# 1) Modelo en Azure ML Studio  - Screenshot del modelo generado :
 # Overview
 [![Overview.png](https://i.postimg.cc/NFndYPXZ/Overview.png)](https://postimg.cc/30gXF1nZ)
 
@@ -9,3 +10,8 @@
 # Metricas del mejor modelo
 [![M-tricas-del-mejor-modelo.png](https://i.postimg.cc/8ccZ2V7h/M-tricas-del-mejor-modelo.png)](https://postimg.cc/rR6G43Cm)
 [![M-tricas-del-mejor-modelo2.png](https://i.postimg.cc/4NK8wskG/M-tricas-del-mejor-modelo2.png)](https://postimg.cc/2VDFSpS9)
+
+# 2) Mongo DB -  log de commits
+https://colab.research.google.com/drive/1rWsF0IIMkXCxAtKBNGUQWArCVGNFhiXI?usp=sharing
+
+
