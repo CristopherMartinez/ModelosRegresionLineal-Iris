@@ -80,8 +80,6 @@ def modelo():
     st.write(modelo.score(x_test, y_test))
     st.header('Modelo Predicción:')
     st.write(modelo.predict(x_test))
-    show()
-    
 
 #Se agrego un diccionario para relacionar las paginas
 pages = {
