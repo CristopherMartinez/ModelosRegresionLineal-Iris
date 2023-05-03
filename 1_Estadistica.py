@@ -53,3 +53,8 @@ fig.add_trace(
     )
 )
 st.plotly_chart(fig, use_container_width=True)
+
+pages = [f[:-3] for f in os.listdir("Pages") if f.endswith(".py")]
+selection = st.sidebar.radio("Pages:", pages)
+page_module = importlib.import_module(f"Pages.{selection}")
+page_module.show()
