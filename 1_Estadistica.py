@@ -4,6 +4,7 @@ import numpy as np
 import Pages
 import Pages.graficas
 import Pages.analisisEstadistico
+import Pages.modelo
 #!pip install scikit-learn
 
 #Se agrego un diccionario para relacionar las paginas
