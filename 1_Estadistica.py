@@ -53,12 +53,12 @@ def graficas():
     st.plotly_chart(fig, use_container_width=True)
 
 def modelo():
-    st.title("Modelo")
     import pandas as pd
     import streamlit as st
     from sklearn.model_selection import train_test_split, StratifiedKFold, cross_val_score
     from sklearn.linear_model import LogisticRegression
     from sklearn.neighbors import KNeighborsClassifier
+    st.title("Modelo")
     url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/iris.csv"
     names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
     df = pd.read_csv(url, names=names)
