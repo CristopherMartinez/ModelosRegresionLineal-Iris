@@ -53,6 +53,7 @@ def graficas():
     st.plotly_chart(fig, use_container_width=True)
 
 def modelo():
+    !pip install scikit-learn
     import pandas as pd
     import streamlit as st
     from sklearn.model_selection import train_test_split, StratifiedKFold, cross_val_score
