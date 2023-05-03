@@ -4,7 +4,7 @@ import numpy as np
 import Pages
 
 
-def home():
+def analisisEstadistico():
     url = "https://gist.githubusercontent.com/netj/8836201/raw/6f9306ad21398ea43cba4f7d537619d0e07d5ae3/iris.csv"
     dfIris = pd.read_csv(url)
     print(dfIris.head(10))
@@ -18,22 +18,22 @@ def home():
     st.write("Clases:")
     st.write(dfIris["variety"].value_counts())
 
-def about():
-    st.title("Acerca de")
-    st.write("Esta es una aplicación de ejemplo para Streamlit.")
+def graficas():
+    st.title("Graficas")
+    #st.write("Esta es una aplicación de ejemplo para Streamlit.")
     # resto del código para la página "Acerca de"
 
-def contact():
-    st.title("Contacto")
-    st.write("Puedes contactarnos en contact@example.com.")
+def modelo():
+    st.title("Modelo")
+    #st.write("Puedes contactarnos en contact@example.com.")
     # resto del código para la página "Contacto"
 
 
 # definir un diccionario para asociar cada página con su función correspondiente
 pages = {
-    "Inicio": home,
-    "Acerca de": about,
-    "Contacto": contact,
+    "Analisis Estadistico": analisisEstadistico,
+    "Graficas": graficas,
+    "Modelo": modelo,
 }
 
 
