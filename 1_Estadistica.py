@@ -2,6 +2,7 @@ import pandas as pd
 import streamlit as st
 import numpy as np
 import Pages
+import Pages.graficas
 #!pip install scikit-learn
 
 
@@ -78,7 +79,8 @@ def modelo():
 #Se agrego un diccionario para relacionar las paginas
 pages = {
     "Analisis Estadistico": analisisEstadistico,
-    "Graficas": graficas,
+    #"Graficas": graficas,
+    "Graficas": Pages.graficas.show,
     "Modelo": modelo,
 }
 
