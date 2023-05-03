@@ -32,7 +32,7 @@ def modelo():
 pages = {
     "Analisis Estadistico": Pages.analisisEstadistico.show,
     "Graficas": Pages.graficas.show,
-    "Modelo": Pages.modelo.show,
+    #"Modelo": Pages.modelo.show,
 }
 
 selection = st.sidebar.radio("Páginas:", list(pages.keys()))
